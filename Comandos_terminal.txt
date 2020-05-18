@@ -1,0 +1,18 @@
+mkdirpwd ----- Donde estoy parado(carpeta)
+ls  ----- Que tengo en mi carpeta
+cd  ----- cambiar directorio (carpeta)pwdcd
+mkdir --- (nombre carpeta nueva)
+touch --- crea archivo
+nano index.html
+vim index.html
+git init -------crea una carpeta de repositorio
+git add (nombre archivo) -----agrega un archivo al repositorio
+git status ---nos dice el status del repostorio
+git commit ---- hace un check point
+
+Entonces puedes activar el subsistema (WSL) y
+descargar la distribución de tu preferencia de la Windows
+Store, yo tengo Ubuntu
+
+https://www.windowscentral.com/install-windows-subsystem-linux-windows-10
+

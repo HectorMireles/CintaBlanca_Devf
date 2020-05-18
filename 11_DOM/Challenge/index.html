@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="todo">
+    <header class="encabezado">
+        <img class="logo img-responsive" src="assets/clipart1667441.png" alt="Logo pizzería">
+    </header>
+    <!-- FORMULARIO -->
+    <main class="cuerpo conteiner col-11">
+        <h2 class="instruccion">Ordena llenando el formulario</h2>
+        <section class="formulario row">
+            <div class="input-group col-11 col-md-11 col-lg-11 mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroup-sizing-default">Nombre</span>
+                </div>
+                <input id="Nombre" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+              </div>
+              <div class="input-group col-11 col-md-11 col-lg-11 mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroup-sizing-default">Dirección</span>
+                </div>
+                <input id="Direccion" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+              </div>
+              <div class="input-group col-11 col-md-11 col-lg-11 mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroup-sizing-default">Teléfono</span>
+                </div>
+                <input id="Telefono" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+              </div>
+              <div class="input-group col-11 col-md-11 col-lg-11 mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroup-sizing-default">¿Con piña?</span>
+                </div>
+                <input id="Pizza" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+              </div>
+              <button id="pedir" type="button" class="btn btn-primary btn-lg boton">¡Ordena con un clic!</button>
+        </section>
+        <!-- CARTAS PIZZAS -->
+        <section>
+            <article class="carta">
+                <div id="card" class="card none" style="width: 18rem;">
+                    <img id="Pepper" src="https://placeralplato.com/files/2016/01/Pizza-con-pepperoni.jpg" class="card-img-top Pepper" alt="Pizza-con-pepperoni">
+                    <img id="Pina" src="https://www.thespruceeats.com/thmb/Tqmt7oH8AMjDWQHCSa93hE4TPe8=/2998x1999/filters:fill(auto,1)/IMG_4618fhor-a98bebf4c7e743a8bbfd6071b5dafc12.jpg" class="card-img-top Pina" alt="Pizza Hawaiina">
+                    <img id="Error" src="./assets/kisspng-computer-icons-error-super-8-film-5b4c86262c3df1.6326735515317417341812.png" class="card-img-top Error" alt="Error image">
+                    <div class="card-body Bcard">
+                      <p id="NombreH" class="card-text">Nombre</p>
+                      <p id="DireccionH" class="card-text">Dirección</p>
+                      <p id="TelefonoH" class="card-text">Teléfono</p>
+                      <p id="PizzaH" class="card-text">Pizza con pepperoni</p>
+                    </div>
+                  </div>
+                  </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Author: Hector Mireles<br>
+            <a class="link" href="mailto:hectormireles10@gmail.com">hectormireles10@gmail.com</a>
+        </p>
+
+    </footer>
+
+
+
+
+
+<script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

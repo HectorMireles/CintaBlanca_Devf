@@ -1,0 +1,38 @@
+/* selector {
+    propiedads : valor;
+} */
+
+* {
+    background-color: gold;
+}
+
+h1 {
+    color: orangered;
+    text-align: center;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    width: 200px;
+}
+
+.l1{
+    color: yellowgreen;
+}
+
+.l2{
+    color: blue;
+}
+
+.l3{
+    color: fuchsia;
+}
